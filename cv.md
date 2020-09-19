@@ -35,7 +35,7 @@ Marital status:&nbsp; &nbsp;Married (One child.)
 
 *2010 - 2012*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Special Operations Team Commander
 
-*2012 - 2015*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Fethiye Station Commander of Gendarmerie
+*2012 - 2015*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Fethiye Station Commander of Gendarmerie
 > I organized an efficient patrol plan to reduce incidents.
 
 > I managed the research to find the famous German director and writer Bernd Girrbach (58), who disappeared in Fethiye, Ölüdeniz region. Girrbach’s body was located through his mobile phone signal, which we tracked via two portable base stations. 
