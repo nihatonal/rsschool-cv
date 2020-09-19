@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+.container{
+    width: 1040px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Left Side */
+.container-left{
+    height: auto;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #333;
+    color: #eeeeee;
+    padding-bottom: 2rem;
+}
+/* Photo and Card */
+.container-left .profil-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.profil-head .name-card h1{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    letter-spacing: .2rem;
+}
+.profil-head .name-card p{
+    font-size: 0.8rem;
+    color:#2b9bca;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.profil-head img{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+/* End - Photo and Card  */
+
+/* Left Side İnformation */
+.container-left .info{
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+    width: 90%;
+}
+.container-left .info h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid #2b9bca;
+}
+.container-left .profil-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    letter-spacing: .05rem;
+}
+.sub-contact h4{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.sub-contact p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.info ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    letter-spacing: .05rem;
+}
+
+.info ul li{
+    list-style-type: none;
+    padding-top: 1.5rem;
+    font-size: 1rem;
+}
+.skills-list{
+    display: flex;
+    justify-content: space-between;
+}
+#tube{
+    width: 25%;
+    padding-left: 1rem;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: #2b9bca;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2px;
+}
+.dot:nth-last-child(1){
+    background-color: #bbb;
+}
+.three{
+    background-color: #bbb;
+}
+
+.lang-list{
+    width: 100%;
+}
+.lang-name{
+    width: 65%;
+    float: left;
+}
+.value-lang{
+    float: right;
+    width: 15%;
+}
+
+/* End Left Side İnformation */
+/* End Left Side */
+
+/* Start of Right Side */
+.container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2rem;
+    background-color: #DBDADF;
+    width: 70%;
+    padding-bottom: 2rem;
+}
+
+.container-right .wrapper{
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+    width: 95%;
+}
+
+.container-right .wrapper h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid #2b9bca;
+    margin-left: 2rem;
+}
+/* start about me */
+.aboutme{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutme-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    padding-bottom: .8rem;
+    padding-right: .5rem;
+}
+.aboutme-list ul li{
+    list-style-type: none;
+    font-size: 1rem;
+    padding-bottom: .5rem;
+}   
+.aboutme-list ul:nth-child(1){
+    font-weight: bold;
+}
+.aboutme-desc{
+    width: 55%;
+    padding-left: .5rem;
+    border-left: 1px solid #333;
+}
+.aboutme-desc p{
+    text-indent: 1.5rem;
+    font-size: 1rem;
+}
+/* End about me */
+/* Start Education */
+.education-list ul:nth-child(1){
+    width: 50%;
+    float: left;
+}
+.education-list ul:nth-child(2){
+    width: 50%;
+    float: right;
+}
+.education-list ul li{
+    list-style-type: none;
+    font-size: 1rem;
+    padding-bottom: .5rem;
+    letter-spacing: .01rem;
+}
+.clearfix{
+    clear: both;
+}
+/* End Education */
+/* Start Career */
+.career{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.timeline{
+    height: 10px;
+    width: 10px;
+    background-color: #2b9bca;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2px;
+    position: absolute;
+    right: -47px;
+    top: 0;
+    z-index: 3;
+}
+
+.career-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.career-year{
+    height: 80px;
+    position: relative;
+}
+.career-year:nth-child(2){
+    height: 200px;
+}
+.career-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    border-left: 1px solid #2b9bca;
+    padding: 0px 10px;
+    height: 650px;
+}
+.career-desc{
+    height: 80px;
+}
+.career-desc:nth-child(2){
+    height: 200px;
+}
+.career-year h4{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: .01rem;
+    padding-bottom: 0.1rem;
+}
+.career-year p{
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .01rem;
+    padding-top: .5rem;
+}
+.career-desc p{
+    font-size: 1rem;
+    letter-spacing: .01rem;
+    text-align: justify;
+    text-indent: 1.5rem;
+}
+
+i{
+    color: #ffffff;
+    background-color:  #2b9bca;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+/* End Career */
+/* Start Course and Projects */
+.title-course-project{
+    display: flex;
+    justify-content: space-between;
+}
+.title-course-project h3:nth-child(2){
+margin-right: 80px;
+}
+.list-course-project{
+    display: flex;
+    justify-content: space-between;
+}
+.list-course-project ul li{
+    list-style-type: none;
+    font-size: 1rem;
+    padding-bottom: .5rem;
+}
+.container-right .wrapper .title-course-project h3:nth-child(1){
+    width: 100%;
+}
+.container-right .wrapper .title-course-project h3:nth-child(2){
+    width: 65%;
+}
+
+/* End Course and Projects */
+/* End Of Right Side */
+
